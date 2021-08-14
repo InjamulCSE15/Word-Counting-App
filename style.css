@@ -11,7 +11,7 @@ body {
     height: 80vh;
     margin: auto;
     padding: 2px 10px;
-    background-color: #FA8072;
+    background-color: #4caf50;
     text-align: center;
 }
 
@@ -25,20 +25,38 @@ input {
 
 #result {
     padding-top: 5%;
+    padding-bottom: 5%;
     font-size: 25px;
     color: rgb(12, 12, 12);
     font-weight: bold;
 }
 
-#btn {
-    cursor: pointer;
-    width: 50%;
-    height: 50px;
-    border-radius: 10px;
+b {
+    color: red;
 }
 
-#btn:hover {
+#btnCalculate {
+    cursor: pointer;
+    width: 50%;
+    height: 55px;
+    border-radius: 8px;
+    
+}
+
+#btnCalculate:hover {
     background-color: blue;
+    color: white;
+}
+
+#btnReset {
+    cursor: pointer;
+    width: 25%;
+    height: 55px;
+    border-radius: 8px;
+}
+
+#btnReset:hover {
+    background-color: red;
     color: white;
 }
 
