@@ -15,7 +15,32 @@ body {
     text-align: center;
 }
 
+input {
+    width: 60%;
+    height: 35px;
+    margin-top: 30px;
+    border-radius: 5px;
+    font-size: large;
+}
 
+#result {
+    padding-top: 5%;
+    font-size: 25px;
+    color: rgb(12, 12, 12);
+    font-weight: bold;
+}
+
+#btn {
+    cursor: pointer;
+    width: 50%;
+    height: 50px;
+    border-radius: 10px;
+}
+
+#btn:hover {
+    background-color: blue;
+    color: white;
+}
 
 footer {
     padding-top: 45%;
